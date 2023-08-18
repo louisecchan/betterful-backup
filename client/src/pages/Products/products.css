@@ -1,0 +1,98 @@
+@media screen and (max-width: 420px) {
+  .products {
+    flex-direction: column !important;
+    margin-bottom: 40rem;
+  }
+  .products h1 {
+    font-size: 17px !important;
+    font-weight: 700 !important;
+  }
+  .products h2 {
+    padding-top: 2rem !important;
+    font-size: 14px !important;
+  }
+}
+#asc,
+#desc {
+  accent-color: rgb(204, 203, 203);
+}
+
+.products {
+  height: 100vh;
+  padding: 90px 50px;
+  display: flex;
+}
+.products .left {
+  flex: 1;
+  height: 100%;
+  top: 50px;
+}
+.products .left .filterItem {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.products .left .filterItem h1,
+.products .left .filterItem h2 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.products .left .filterItem .inputItem {
+  margin-bottom: 10px;
+  /*********** Baseline, reset styles ***********/
+  /* Removes default focus */
+  /******** Chrome, Safari, Opera and Edge Chromium styles ********/
+  /* slider track */
+  /* slider thumb */
+  /*********** Firefox styles ***********/
+  /* slider track */
+  /* slider thumb */
+}
+.products .left .filterItem .inputItem label {
+  margin-left: 10px;
+  font-size: 12px !important;
+}
+.products .left .filterItem .inputItem input[type=range] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 10rem;
+}
+.products .left .filterItem .inputItem input[type=range]:focus {
+  outline: none;
+}
+.products .left .filterItem .inputItem input[type=range]::-webkit-slider-runnable-track {
+  background-color: #d1d1d1;
+  border-radius: 0.5rem;
+  height: 0.12rem;
+  margin-top: -0.4rem;
+  margin-left: 0.18rem;
+  margin-right: 0.18rem;
+}
+.products .left .filterItem .inputItem input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -0.96px; /* Centers thumb on the track */
+  background-color: #adadad;
+  border-radius: 0.5rem;
+  height: 0.3rem;
+  width: 0.6rem;
+}
+.products .left .filterItem .inputItem input[type=range]::-moz-range-track {
+  background-color: #d1d1d1;
+  border-radius: 0.5rem;
+  height: 0.18rem;
+}
+.products .left .filterItem .inputItem input[type=range]::-moz-range-thumb {
+  background-color: #adadad;
+  border: none; /*Removes extra border that FF applies*/
+  border-radius: 0.5rem;
+  height: 0.3rem;
+  width: 0.6rem;
+}
+.products .left .right {
+  flex: 1;
+}/*# sourceMappingURL=products.css.map */

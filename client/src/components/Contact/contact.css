@@ -1,0 +1,85 @@
+@media screen and (max-width: 720px) {
+  .contact {
+    width: 100vw !important;
+    height: 40vh !important;
+  }
+  .contact .wrapper {
+    flex-direction: column !important;
+  }
+  .contact .wrapper .mail {
+    margin-top: 7rem !important;
+  }
+  .contact .wrapper span {
+    padding-left: 0.5rem !important;
+    padding-right: 0px !important;
+    font-size: 0.8rem !important;
+  }
+  .contact .wrapper input {
+    margin-top: 3rem !important;
+  }
+  .contact .icons {
+    margin-left: -2.5rem !important;
+  }
+}
+.contact {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+.contact .wrapper {
+  width: 73%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .wrapper span {
+  font-size: 12px;
+  padding-right: 50px;
+}
+.contact .wrapper input {
+  height: 18px;
+  padding: 10.5px;
+  font-size: 12px;
+  border: 1px solid rgb(186, 185, 185);
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+.contact .wrapper input:focus {
+  border: 1px solid #000000;
+  outline: none;
+}
+.contact .wrapper .subscribe-btn {
+  height: 40.3px;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #000000;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.contact .wrapper .subscribe-btn:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid black;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.contact .icons {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+.contact .icons .icon-fa {
+  width: 50px;
+}
+.contact .icons .icon {
+  font-size: 15px;
+}/*# sourceMappingURL=contact.css.map */

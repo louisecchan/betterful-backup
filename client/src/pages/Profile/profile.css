@@ -1,0 +1,69 @@
+.profileCard {
+  padding: 25px 430px 30px 430px;
+  box-shadow: none !important;
+}
+
+.profileCard-title {
+  font-family: on9jai2;
+  padding-bottom: 30px;
+}
+
+.profileButton {
+  display: block;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px 10px 20px;
+}
+
+.profileButton:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+  transition: ease 0.3s;
+  -webkit-transition: ease 0.3s;
+  -moz-transition: ease 0.3s;
+  -ms-transition: ease 0.3s;
+  -o-transition: ease 0.3s;
+}
+
+.inputContent {
+  font-family: on9jai;
+}
+
+Form {
+  font-family: on9jai !important;
+}
+
+Input:hover:not(.disable):hover {
+  border: 1px solid black;
+  transition: ease 0.3s;
+  -webkit-transition: ease 0.3s;
+  -moz-transition: ease 0.3s;
+  -ms-transition: ease 0.3s;
+  -o-transition: ease 0.3s;
+}
+
+Input:focus:not(.disable):focus {
+  border: 1px solid black;
+  box-shadow: none !important;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fadeIn 3s;
+  transition: ease-in;
+  -webkit-transition: ease-in;
+  -moz-transition: ease-in;
+  -ms-transition: ease-in;
+  -o-transition: ease-in;
+  -webkit-animation: fadeIn 3s;
+}/*# sourceMappingURL=profile.css.map */

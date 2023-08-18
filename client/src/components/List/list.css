@@ -1,0 +1,17 @@
+@media screen and (max-width: 414px) {
+  .list .card {
+    position: relative !important;
+    top: 5% !important;
+    left: 30% !important;
+    margin-bottom: -300px !important;
+    padding: 5px !important;
+    z-index: 0 !important;
+  }
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list .card {
+  padding: 25px;
+}/*# sourceMappingURL=list.css.map */

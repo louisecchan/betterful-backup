@@ -1,0 +1,46 @@
+@media screen and (max-width: 420px) {
+  .containerStore {
+    flex-direction: column !important;
+    padding-top: 0.1rem !important;
+    margin-top: -1.8rem !important;
+    padding-left: 3rem !important;
+    padding-bottom: 0.1rem !important;
+    margin-bottom: -6.3rem !important;
+  }
+}
+.containerStore {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 80px;
+  margin-top: 11rem;
+  padding-left: 185px;
+}
+.containerStore .shop {
+  flex: 2;
+  font-size: 14px;
+  color: rgb(100, 98, 98);
+  line-height: 1.5;
+  max-width: 500px;
+}
+.containerStore span {
+  flex: 1;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 3s;
+  transition: ease-in;
+  -webkit-transition: ease-in;
+  -moz-transition: ease-in;
+  -ms-transition: ease-in;
+  -o-transition: ease-in;
+  -webkit-animation: fadeIn 3s;
+}/*# sourceMappingURL=stores.css.map */

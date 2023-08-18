@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "on9jai2";
+  src: local("on9jai2"), url("./fonts/on9jai2.woff2") format("woff2");
+}
+@font-face {
+  font-family: "on9jai";
+  src: local("on9jai"), url("./fonts/on9jai.woff2") format("woff2");
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+.app .link {
+  color: inherit;
+  text-decoration: none;
+}
+.app .link .link:visited {
+  text-decoration: none;
+}/*# sourceMappingURL=app.css.map */
