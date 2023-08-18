@@ -1,0 +1,262 @@
+@media screen and (max-width: 1124px) {
+  #shop-name {
+    font-size: 1.8rem !important;
+    padding-left: 6.3rem !important;
+    padding-right: 6.3rem !important;
+  }
+  .muiIcons {
+    margin-left: 0rem !important;
+  }
+  .link {
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #shop-name {
+    font-size: 1.5rem !important;
+    padding-left: 3.2rem !important;
+    padding-right: 3.2rem !important;
+  }
+  .muiIcons {
+    margin-left: 0rem !important;
+  }
+  .link {
+    font-size: 0.8rem !important;
+  }
+}
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  padding: 10px 30px;
+  margin-top: 0.3rem;
+  font-family: "on9jai";
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: -0.1px;
+}
+
+#shop-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-left: 20.7rem;
+  padding-right: 17.8rem;
+}
+
+.navigation-menu {
+  margin-left: 1.8rem;
+}
+
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.navigation-menu li {
+  list-style-type: none;
+  margin: 0 0.8rem;
+}
+
+.navigation-menu li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    margin-top: -0.5rem !important;
+  }
+  #shopname-mobilenav {
+    display: inline !important;
+    font-size: 1.2rem;
+    margin-left: -0.8rem !important;
+  }
+  .text-fade-up {
+    overflow: hidden;
+    animation: fade-up 1s;
+    -webkit-animation: fade-up 1s ease-in-out;
+  }
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(5rem);
+    }
+    100% {
+      transform: translateY(0rem);
+      opacity: 1;
+      -webkit-transform: translateY(0rem);
+      -moz-transform: translateY(0rem);
+      -ms-transform: translateY(0rem);
+      -o-transform: translateY(0rem);
+    }
+  }
+  .navigation-menu ul {
+    flex-direction: column;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: white;
+    z-index: 1;
+    display: none;
+    box-shadow: 0px 23px 24px 0px rgb(245, 245, 245);
+  }
+  .navigation-menu li {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    margin: 0.5rem !important;
+    margin-left: -3.2rem !important;
+  }
+  .navigation-menu li .localeImg {
+    display: none;
+  }
+  .navigation-menu li .localeImgM {
+    display: block !important;
+    margin-top: 3rem !important;
+    margin-left: 0rem !important;
+  }
+  .navigation-menu li #shop-name {
+    display: none;
+  }
+  .navigation-menu li .story {
+    margin-left: 0rem !important;
+  }
+  .navigation-menu li .icons {
+    margin-left: 0rem !important;
+  }
+  .navigation-menu li .cartIcon {
+    display: none !important;
+  }
+  .navigation-menu li .cartIcon .muiIcons {
+    display: none;
+  }
+  .navigation-menu li .cartText {
+    display: block !important;
+  }
+  .navigation-menu li .sale {
+    margin-left: 0rem !important;
+  }
+  .navigation-menu li .un {
+    display: inline !important;
+    background-position: 0 83% !important;
+  }
+  .navigation-menu li a {
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 1.5rem !important;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+  }
+}
+#shopname-mobilenav {
+  display: none;
+}
+
+.link {
+  font-size: 0.72rem;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.link:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+.un {
+  display: inline-block;
+  padding-bottom: 1px;
+  background-image: linear-gradient(#575656 0 0);
+  background-position: 0 100%;
+  background-size: 0% 0.5px;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s, background-position 0s 0.3s;
+}
+
+.un:hover {
+  background-position: 100% 100%;
+  background-size: 100% 1px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.un:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+.icons a:visited {
+  color: #000;
+}
+
+.sale {
+  margin-left: -1.5rem;
+}
+
+.localeImg {
+  height: 18px;
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+.localeImgM {
+  display: none !important;
+}
+
+.shop-nameM {
+  display: none !important;
+}
+
+.story {
+  margin-left: -1rem;
+}
+
+.icons {
+  display: flex;
+  font-size: 12px;
+  color: #413f3f;
+  cursor: pointer;
+  margin-left: 0.9rem;
+}
+.icons .muiIcons {
+  font-size: 16px;
+  align-content: center;
+  justify-content: center;
+  margin-left: 0.3rem;
+  margin-top: 0.1rem;
+}
+.icons .cartIcon {
+  position: relative;
+}
+.icons .cartIcon span {
+  font-size: 8px;
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  right: -4px;
+  top: -3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.cartText {
+  display: none !important;
+}/*# sourceMappingURL=navbar.css.map */

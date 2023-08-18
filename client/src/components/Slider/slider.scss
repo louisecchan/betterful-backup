@@ -1,0 +1,80 @@
+@media screen and (max-width: 720px) {
+  .slider {
+    width: 91% !important;
+    margin-left: 1rem !important;
+    margin-right: 2rem !important;
+    margin-top: -0.5rem !important;
+
+    .container-1 {
+      display: none !important;
+    }
+
+    .container-2 {
+      transition: all 1s ease;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      width: 200vw;
+      height: 95%;
+      display: flex !important;
+
+      img {
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.slider {
+  height: calc(100vh - 80px);
+  width: 94vw;
+  position: relative;
+  overflow: hidden;
+  margin-left: 45px;
+  margin-right: 35px;
+
+  .container-1 {
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    width: 200vw; // Because we have two images
+    height: 93%; // Because children's height was declared
+    display: flex; // Make the images horizontally aligned
+
+    img {
+      width: 100vw;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .container-2 {
+    display: none;
+  }
+
+  .icons {
+    width: fit-content;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    gap: 10px;
+    margin: auto;
+
+    .icon {
+      width: 50px;
+      height: 50px;
+      border: 0px solid #999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  }
+}

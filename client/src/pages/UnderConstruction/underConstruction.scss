@@ -1,0 +1,28 @@
+@media screen and (max-width: 420px) {
+  .coming-soon-container {
+    position: relative;
+    top: 30% !important;
+    left: 36% !important;
+
+    h1 {
+      font-size: 22px !important;
+    }
+    .coming-soon-text {
+      font-size: 1.1rem !important;
+    }
+  }
+}
+
+.coming-soon {
+  height: 100vh;
+}
+
+.coming-soon-container {
+  position: relative;
+  top: 37%;
+  left: 46.5%;
+}
+
+.coming-soon-text {
+  font-size: 1.2rem;
+}

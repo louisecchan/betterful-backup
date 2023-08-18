@@ -1,0 +1,67 @@
+@media screen and (max-width: 420px) {
+  .containerStory {
+    height: 160vh !important;
+    padding-top: 2rem !important;
+    padding-bottom: 10rem !important;
+    padding-left: 1rem !important;
+  }
+  .containerStory .storyHeading {
+    font-size: 1.4rem !important;
+    padding-left: 0.8rem !important;
+  }
+  .containerStory h1 {
+    margin-left: -2rem !important;
+  }
+  .containerStory p {
+    margin-top: 5.5rem !important;
+    margin-left: -10.2rem !important;
+    margin-right: 1rem !important;
+    text-align: left !important;
+  }
+}
+.containerStory {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+.containerStory .contentStory {
+  flex: 1;
+  font-size: 14px;
+  color: rgb(100, 98, 98);
+  line-height: 1.5;
+}
+.containerStory .div > fade-in {
+  animation: fadeIn 3s;
+  transition: ease-in;
+  -webkit-transition: ease-in;
+  -moz-transition: ease-in;
+  -ms-transition: ease-in;
+  -o-transition: ease-in;
+  -webkit-animation: fadeIn 3s;
+}
+.containerStory .storyHeading {
+  font-size: 1.6rem;
+  font-family: on9jai2;
+  color: black;
+}
+.containerStory h1 {
+  padding-top: 2rem;
+}
+.containerStory span {
+  flex: 1;
+}
+.containerStory p {
+  margin-left: -5.2rem;
+  text-align: justify;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=story.css.map */
