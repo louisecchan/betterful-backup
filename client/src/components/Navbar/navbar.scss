@@ -183,9 +183,14 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 414px) {
   #shopname-mobilenav {
     padding-left: 1.2rem !important;
+  }
+
+  .hamburger {
+    right: 5.5% !important;
+    top: 25% !important;
   }
 }
 
