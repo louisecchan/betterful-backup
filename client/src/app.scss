@@ -29,3 +29,9 @@ body {
   color: #FFF;
   transition: ease-in-out 0.5s;
 }
+
+.dummy-url:hover {
+  text-decoration: underline;
+  text-decoration-color: #000;
+  transition: ease-in-out 0.5s;
+}
