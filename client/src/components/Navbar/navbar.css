@@ -104,6 +104,8 @@
     background-color: white;
     z-index: 1;
     display: none;
+    -webkit-box-shadow: 0px 23px 24px 0px rgb(245, 245, 245);
+    -moz-box-shadow: 0px 23px 24px 0px rgb(245, 245, 245);
     box-shadow: 0px 23px 24px 0px rgb(245, 245, 245);
   }
   .navigation-menu li {
@@ -232,7 +234,7 @@
   font-size: 16px;
   align-content: center;
   justify-content: center;
-  margin-left: 0.3rem;
+  margin-left: 0.55rem;
   margin-top: 0.1rem;
 }
 .icons .cartIcon {
@@ -259,4 +261,6 @@
 
 .cartText {
   display: none !important;
-}/*# sourceMappingURL=navbar.css.map */
+}
+
+/*# sourceMappingURL=navbar.css.map */
