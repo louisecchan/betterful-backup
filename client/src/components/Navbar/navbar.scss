@@ -38,15 +38,15 @@
 .navbar {
   position: relative;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   height: 80px;
   width: 100%;
-  padding: 10px 30px;
+  padding: 10px 0;
   margin-top: 0.3rem;
   font-family: "on9jai";
   font-size: 11.5px;
   text-transform: uppercase;
-  // -webkit-font-smoothing: antialiased;
   letter-spacing: -0.1px;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .navigation-menu {
-  margin-left: 1.8rem;
+  //margin-left: 1.8rem;
 
   @media screen and (max-width: 1024px) {
     width: 100vw;
@@ -88,6 +88,7 @@
   .navbar {
     margin-top: -0.5rem !important;
   }
+
   #shopname-mobilenav {
     display: inline !important;
     font-size: 1.2rem;
@@ -269,7 +270,6 @@
     font-size: 16px;
     align-content: center;
     justify-content: center;
-    margin-left: 0.55rem;
     margin-top: 0.1rem;
   }
 
