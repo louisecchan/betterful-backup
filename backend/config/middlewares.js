@@ -21,6 +21,7 @@ module.exports = [
         "http://localhost:1337",
         "http://localhost:3000",
         "https://strapi-shoplify.up.railway.app",
+        "https://desiroo.up.railway.app",
         "https://strapi1000-production.up.railway.app",
         "https://strapi-production-a8c7.up.railway.app",
       ],
