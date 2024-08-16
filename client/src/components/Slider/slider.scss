@@ -30,11 +30,8 @@
 
 .slider {
   height: calc(100vh - 80px);
-  width: 94vw;
   position: relative;
   overflow: hidden;
-  margin-left: 45px;
-  margin-right: 35px;
 
   .container-1 {
     transition: all 1s ease;
