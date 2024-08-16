@@ -46,7 +46,7 @@ const Categories = () => {
           <div className="col">
             <div className="row">
               <img
-                src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1685309560/Category_Supplements_a74rjd.png"
+                src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1723786003/Category_Supplements_a74rjd_xvdsy8.jpg"
                 alt=""
                 loading="lazy"
               />
@@ -58,7 +58,7 @@ const Categories = () => {
           <div className="col">
             <div className="row">
               <img
-                src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1681223160/category-aromatherapy_i5ylrx.png"
+                src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1723786300/category-aromatherapy_i5ylrx_v74azt.png"
                 alt=""
                 loading="lazy"
               />
@@ -70,7 +70,7 @@ const Categories = () => {
         </div>
         <div className="row" id="yoga">
           <img
-            src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1681224387/category-yoga-accessories_imimxf.png"
+            src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1723786250/category-yoga-accessories_imimxf_aulrux.jpg"
             alt=""
             loading="lazy"
           />
