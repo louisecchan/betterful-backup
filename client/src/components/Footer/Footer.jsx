@@ -47,10 +47,10 @@ const Footer = () => {
       <div className="bottom">
         <div className="left">
           <span className="logo">DESIROO</span>
-          <span className="copyright">© 2023 desiroo.com</span>
+          <span className="copyright">© {new Date().getFullYear()} desiroo.com</span>
         </div>
         <div className="right">
-          <img src="/img/payment.png" alt="" />
+          <img src="/img/payment.png" alt=""/>
         </div>
       </div>
     </div>
