@@ -92,4 +92,8 @@ body {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
 }
 
+:where(.css-dev-only-do-not-override-1mqg3i0).ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: #000;
+}
+
 /*# sourceMappingURL=register.css.map */
