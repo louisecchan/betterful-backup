@@ -10,6 +10,7 @@ const Categories = () => {
           <img
             src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1681216747/category-sale_suljcy.png"
             alt="Sale"
+            loading="lazy"
           />
           <Link className="link-2" to="/underconstruction">
             <button className="categories-btn">Sale</button>
@@ -19,6 +20,7 @@ const Categories = () => {
           <img
             src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1681219442/category-skincare_jvlwi5.png"
             alt="Beauty"
+            loading="lazy"
           />
 
           <Link className="link-2" to="/products/1">
@@ -32,6 +34,7 @@ const Categories = () => {
           <img
             src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1685310272/Category_Fashion_nsbxvw.jpg"
             alt="Fashion"
+            loading="lazy"
           />{" "}
           <Link className="link-2" to="/products/2">
             <button className="categories-btn">Fashion</button>
