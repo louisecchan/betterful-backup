@@ -25,6 +25,7 @@ body {
 }
 
 .categories .row .categories-btn:hover {
-  //opacity: 0.5;0
-  //background-color: #000000;
+  background-color: #000;
+  color: #FFF;
+  transition: ease-in-out 0.5s;
 }
