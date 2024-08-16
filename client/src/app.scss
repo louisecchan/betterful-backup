@@ -11,6 +11,8 @@
 html,
 body {
   overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 .app .link {
