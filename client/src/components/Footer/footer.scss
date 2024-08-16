@@ -1,8 +1,9 @@
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .footer {
     width: 100vw !important;
-    height: 140vh !important;
-    margin: 4rem 2rem !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    padding: 20px !important;
 
     hr {
       display: block !important;
@@ -26,11 +27,17 @@
       margin-top: 9rem !important;
       flex-direction: column !important;
       width: 80vw !important;
+      justify-content: left !important;
+      display: flex !important;
+
       .left {
-        margin-left: -7.4rem !important;
+        align-self: flex-start !important;
+        margin-left: 0 !important;
       }
+
       .right {
-        margin-left: 0.8rem !important;
+        align-self: flex-start !important;
+        margin-left: 0 !important;
       }
     }
   }
