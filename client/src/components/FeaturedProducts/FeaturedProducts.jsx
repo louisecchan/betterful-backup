@@ -40,7 +40,7 @@ const FeaturedProducts = ({ type }) => {
       </div>
       <div className="bottom">
         {error ? (
-          <span className="errMessage">Uh oh, shit went wrong.</span>
+          <span className="errMessage">Sorry, our server is down at the moment.</span>
         ) : loading ? (
           <div className="lds-ring">
             <div></div>
