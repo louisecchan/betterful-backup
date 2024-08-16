@@ -8,7 +8,7 @@ const Categories = () => {
       <div className="col">
         <div className="row">
           <img
-            src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1681216747/category-sale_suljcy.png"
+            src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1723785641/category-sale_suljcy_wyaw86.jpg"
             alt="Sale"
             loading="lazy"
           />
@@ -18,7 +18,7 @@ const Categories = () => {
         </div>
         <div className="row">
           <img
-            src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1681219442/category-skincare_jvlwi5.png"
+            src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1723785765/category-skincare_jvlwi5_awv48h.jpg"
             alt="Beauty"
             loading="lazy"
           />
