@@ -45,6 +45,7 @@ const Categories = () => {
               <img
                 src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1685309560/Category_Supplements_a74rjd.png"
                 alt=""
+                loading="lazy"
               />
               <Link className="link-2" to="/underconstruction">
                 <button className="categories-btn">Supplements</button>
@@ -56,6 +57,7 @@ const Categories = () => {
               <img
                 src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1681223160/category-aromatherapy_i5ylrx.png"
                 alt=""
+                loading="lazy"
               />
               <Link className="link-2" to="/underconstruction">
                 <button className="categories-btn">Aromatherapy</button>
@@ -67,6 +69,7 @@ const Categories = () => {
           <img
             src="https://res.cloudinary.com/dlmgs0z2s/image/upload/v1681224387/category-yoga-accessories_imimxf.png"
             alt=""
+            loading="lazy"
           />
 
           <Link className="link-2" to="/underconstruction">

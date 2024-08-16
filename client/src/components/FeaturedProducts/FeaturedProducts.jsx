@@ -50,11 +50,9 @@ const FeaturedProducts = ({ type }) => {
           </div>
         ) : (
           data?.map((item) => (
-            // <div className="card-container-external">
             <div className="card-container">
               <Card item={item} key={item.id} />
             </div>
-            // </div>
           ))
         )}
       </div>
