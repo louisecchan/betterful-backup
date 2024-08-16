@@ -44,4 +44,8 @@ body {
   transition: ease-in-out 0.5s;
 }
 
+.contact .icons .icon:hover {
+  opacity: 0.7;
+}
+
 /*# sourceMappingURL=app.css.map */
