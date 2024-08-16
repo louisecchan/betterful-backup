@@ -38,8 +38,8 @@ const Footer = () => {
           <p>
             For any enquiries please contact us.
             <br /> We're available 24 hours, 7 days a week. <br /> <br />
-            Email us at customercare@desiroo.com <br />
-            <br />
+            Email us at <a href="mailto:customercare@desiroo.com" className="email">customercare@desiroo.com</a><br/>
+            <br/>
             Call us on 0800 088 6808
           </p>
         </div>

@@ -35,3 +35,14 @@ body {
   text-decoration-color: #000;
   transition: ease-in-out 0.5s;
 }
+
+.email {
+  text-decoration: none;
+  color: inherit;
+}
+
+.email:hover {
+  text-decoration: underline;
+  text-decoration-color: #000;
+  transition: ease-in-out 0.5s;
+}
