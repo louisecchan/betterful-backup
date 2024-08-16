@@ -1,3 +1,7 @@
+.ant-card-body {
+  margin-left: 20px;
+}
+
 .profileCard {
   padding: 25px 430px 30px 430px;
   box-shadow: none !important;
@@ -5,6 +9,8 @@
 
 .profileCard-title {
   font-family: on9jai2;
+  font-size: 1.4rem;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 
@@ -58,6 +64,38 @@ Input:focus:not(.disable):focus {
     opacity: 1;
   }
 }
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .fade-in {
   animation: fadeIn 3s;
   transition: ease-in;
@@ -66,4 +104,14 @@ Input:focus:not(.disable):focus {
   -ms-transition: ease-in;
   -o-transition: ease-in;
   -webkit-animation: fadeIn 3s;
-}/*# sourceMappingURL=profile.css.map */
+}
+
+Input:focus:not(.disable):focus {
+  border: 0;
+}
+
+Input:hover:not(.disable):hover {
+  border: 0;
+}
+
+/*# sourceMappingURL=profile.css.map */
