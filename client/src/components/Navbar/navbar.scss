@@ -21,6 +21,11 @@
     padding-right: 3.2rem !important;
   }
 
+  .slider {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+
   .muiIcons {
     margin-left: 0rem !important;
   }
@@ -54,6 +59,12 @@
 
 .navigation-menu {
   margin-left: 1.8rem;
+
+  @media screen and (max-width: 1024px) {
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+  }
 }
 
 .navigation-menu ul {
