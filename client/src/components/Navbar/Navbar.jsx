@@ -29,7 +29,7 @@ const Navbar = () => {
         className="text-fade-up"
         onClick={closeMobileMenu}
       >
-        DESIROO
+        BETTERFUL 
       </h1>
       <div
         className="hamburger"
@@ -86,14 +86,14 @@ const Navbar = () => {
           </li>
           <li>
             <Link className="link" id="shop-name" to="/">
-              DESIROO
+              BETTERFUL 
             </Link>
           </li>
 
           {/* fake link - act like a placeholder on navbar haha */}
           <li>
             <Link className="shop-nameM" to="/" onClick={closeMobileMenu}>
-              DESIROO
+              BETTERFUL 
             </Link>
           </li>
 

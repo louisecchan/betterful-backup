@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="item">
           <h1>About</h1>
           <p className="about-desc">
-            DESIROO is a destination of discovery for all genders – a place to
+            BETTERFUL  is a destination of discovery for all genders – a place to
             be inspired, to find connection and to explore all aspects of a
             stylish life. With a selection of more than 500 of the world's most
             sought-after brands, we're on a mission to provide men with
@@ -46,7 +46,7 @@ const Footer = () => {
       </div>
       <div className="bottom">
         <div className="left">
-          <span className="logo">DESIROO</span>
+          <span className="logo">BETTERFUL </span>
           <span className="copyright">© {new Date().getFullYear()} desiroo.com</span>
         </div>
         <div className="right">

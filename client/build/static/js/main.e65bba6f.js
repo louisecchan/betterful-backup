@@ -33979,7 +33979,7 @@
                           className: "link",
                           id: "shop-name",
                           to: "/",
-                          children: "DESIROO",
+                          children: "BETTERFUL ",
                         }),
                       }),
                       (0, tn.jsx)("li", {
@@ -33987,7 +33987,7 @@
                           className: "shop-nameM",
                           to: "/",
                           onClick: a,
-                          children: "DESIROO",
+                          children: "BETTERFUL ",
                         }),
                       }),
                       (0, tn.jsx)("li", {
