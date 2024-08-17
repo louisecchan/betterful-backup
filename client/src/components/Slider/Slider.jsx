@@ -11,6 +11,8 @@ const Slider = () => {
     "https://res.cloudinary.com/dlmgs0z2s/image/upload/v1681136413/slider-photo-1_hbwhrj.jpg",
     "https://res.cloudinary.com/dlmgs0z2s/image/upload/v1682610428/slider-v-2_uwdmqi.jpg",
     "https://res.cloudinary.com/dlmgs0z2s/image/upload/v1682610428/slider-v-1_un6du6.jpg",
+    "https://res.cloudinary.com/dlmgs0z2s/image/upload/v1723873638/slider-photo-3_huuszj-768px_pogtn9.jpg",
+    "https://res.cloudinary.com/dlmgs0z2s/image/upload/v1723873711/slider-photo-1_hbwhrj_1_jqxdwp.jpg"
   ];
 
   useEffect(() => {
@@ -22,22 +24,29 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="slider">
-      <div
-        className="container-1"
-        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-      >
-        <img src={data[0]} alt="" loading="lazy" />
-        <img src={data[1]} alt="" loading="lazy" />
+      <div className="slider">
+          <div
+              className="container-1"
+              style={{transform: `translateX(-${currentSlide * 100}vw)`}}
+          >
+              <img src={data[0]} alt="" loading="lazy"/>
+              <img src={data[1]} alt="" loading="lazy"/>
+          </div>
+          <div
+              className="container-2"
+              style={{transform: `translateX(-${currentSlide * 100}vw)`}}
+          >
+              <img src={data[2]} alt=""/>
+              <img src={data[3]} alt=""/>
+          </div>
+          <div
+              className="container-3"
+              style={{transform: `translateX(-${currentSlide * 100}vw)`}}
+          >
+              <img src={data[4]} alt=""/>
+              <img src={data[5]} alt=""/>
+          </div>
       </div>
-      <div
-        className="container-2"
-        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-      >
-        <img src={data[2]} alt="" />
-        <img src={data[3]} alt="" />
-      </div>
-    </div>
   );
 };
 

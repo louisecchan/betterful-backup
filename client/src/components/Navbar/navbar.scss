@@ -84,7 +84,7 @@
   #shopname-mobilenav {
     display: inline !important;
     font-size: 1.2rem;
-    margin-left: -8.8rem !important;
+    margin-left: -10.8rem !important;
   }
 
   .text-fade-up {
@@ -133,7 +133,11 @@
     position: relative;
     top: 10%;
     margin: 0.5rem !important;
-    margin-left: -3.2rem !important;
+    //margin-left: -3.2rem !important;
+
+    #shop-name {
+      display: none;
+    }
 
     .localeImg {
       display: none;
@@ -143,10 +147,6 @@
       display: block !important;
       margin-top: 3rem !important;
       margin-left: 0rem !important;
-    }
-
-    #shop-name {
-      display: none;
     }
 
     .story {

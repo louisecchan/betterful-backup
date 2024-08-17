@@ -1,8 +1,13 @@
-//@media screen and (max-width: 1024px) {
-//  .categories .col {
-//
-//
-//}
+@media screen and (max-width: 768px) {
+  //.categories {
+  //  height: 20vh;
+  //}
+
+  .categories .col {
+    //height: 100%;
+    flex-direction: column;
+  }
+}
 
 @media screen and (max-width: 420px) {
   .categories {
@@ -94,3 +99,4 @@
     }
   }
 }
+

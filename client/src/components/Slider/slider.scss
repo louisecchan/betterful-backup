@@ -1,4 +1,35 @@
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
+  .slider {
+    margin-top: -0.5rem !important;
+
+    .container-1 {
+      display: none !important;
+    }
+
+    .container-2 {
+      display: none !important;
+    }
+
+    .container-3 {
+      transition: all 1s ease;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      width: 200vw;
+      height: 95%;
+      display: flex !important;
+
+      img {
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
   .slider {
     margin-top: -0.5rem !important;
 
@@ -21,6 +52,10 @@
         height: 100%;
         object-fit: cover;
       }
+    }
+
+    .container-3 {
+      display: none !important;
     }
   }
 }
@@ -48,6 +83,10 @@
   }
 
   .container-2 {
+    display: none;
+  }
+
+  .container-3 {
     display: none;
   }
 
