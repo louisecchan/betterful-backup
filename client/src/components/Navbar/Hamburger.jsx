@@ -11,7 +11,7 @@ export const Hamburger = ({ isOpen }) => {
 
       <style jsx="true">
         {`
-          @media screen and (max-width: 720px) {
+          @media screen and (max-width: 768px) {
             .hamburger {
               position: absolute;
               top: 25%;
