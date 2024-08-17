@@ -30,6 +30,11 @@
     margin-left: -2.5rem !important;
   }
 }
+@media screen and (max-width: 480px) {
+  .contact .wrapper span {
+    padding-left: 0 !important;
+  }
+}
 .contact {
   padding: 15px;
   display: flex;
