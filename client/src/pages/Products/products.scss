@@ -73,6 +73,14 @@
           outline: none;
         }
 
+        Input:focus:not(.disable):focus {
+          border: 0;
+        }
+
+        Input:hover:not(.disable):hover {
+          border: 0;
+        }
+
         /******** Chrome, Safari, Opera and Edge Chromium styles ********/
         /* slider track */
         input[type="range"]::-webkit-slider-runnable-track {
@@ -80,8 +88,6 @@
           border-radius: 0.5rem;
           height: 0.12rem;
           margin-top: -0.4rem;
-          // margin-left: 0.18rem;
-          // margin-right: 0.18rem;
         }
 
         /* slider thumb */
@@ -113,6 +119,7 @@
         }
       }
     }
+
     .right {
       flex: 1;
     }

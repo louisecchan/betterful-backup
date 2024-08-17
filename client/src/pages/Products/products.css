@@ -70,6 +70,12 @@
 .products .left .filterItem .inputItem input[type=range]:focus {
   outline: none;
 }
+.products .left .filterItem .inputItem Input:focus:not(.disable):focus {
+  border: 0;
+}
+.products .left .filterItem .inputItem Input:hover:not(.disable):hover {
+  border: 0;
+}
 .products .left .filterItem .inputItem input[type=range]::-webkit-slider-runnable-track {
   background-color: #d1d1d1;
   border-radius: 0.5rem;
