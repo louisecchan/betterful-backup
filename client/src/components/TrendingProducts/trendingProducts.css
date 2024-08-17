@@ -1,4 +1,7 @@
 @media screen and (max-width: 720px) {
+  #trending-desc {
+    margin-bottom: -1rem !important;
+  }
   .featuredProducts {
     margin: 5rem 2rem !important;
     width: 100vw !important;
@@ -28,7 +31,7 @@
   .featuredProducts .bottom span {
     position: absolute;
     top: 0%;
-    left: -6%;
+    left: -25%;
   }
 }
 .featuredProducts {
@@ -63,7 +66,7 @@
 }
 .bottom .errMessage {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 3rem;
   font-weight: 700;
 }
@@ -125,4 +128,6 @@
   100% {
     transform: rotate(360deg);
   }
-}/*# sourceMappingURL=trendingProducts.css.map */
+}
+
+/*# sourceMappingURL=trendingProducts.css.map */

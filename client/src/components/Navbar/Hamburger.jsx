@@ -14,8 +14,8 @@ export const Hamburger = ({ isOpen }) => {
           @media screen and (max-width: 720px) {
             .hamburger {
               position: absolute;
-              top: 30%;
-              right: 15.5%;
+              top: 25%;
+              right: 5%;
               width: 2rem;
               height: 1.5rem;
               display: flex;

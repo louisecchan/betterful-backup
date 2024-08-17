@@ -108,6 +108,11 @@
     }
   }
 
+  .hamburger {
+    top: 25%;
+    right: 5%;
+  }
+
   .navigation-menu ul {
     flex-direction: column;
     position: absolute;
@@ -186,6 +191,7 @@
 @media screen and (max-width: 414px) {
   #shopname-mobilenav {
     padding-left: 1.2rem !important;
+    margin-left: -5.8rem !important;
   }
 
   .hamburger {
