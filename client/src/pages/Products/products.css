@@ -53,13 +53,19 @@
   margin-left: 10px;
   font-size: 12px !important;
 }
+.products .left .filterItem .inputItem #min-price {
+  padding-right: 2px;
+}
+.products .left .filterItem .inputItem #max-price {
+  padding-left: 2px;
+}
 .products .left .filterItem .inputItem input[type=range] {
   -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   background: transparent;
   cursor: pointer;
   width: 10rem;
+  vertical-align: bottom;
 }
 .products .left .filterItem .inputItem input[type=range]:focus {
   outline: none;
@@ -69,8 +75,6 @@
   border-radius: 0.5rem;
   height: 0.12rem;
   margin-top: -0.4rem;
-  margin-left: 0.18rem;
-  margin-right: 0.18rem;
 }
 .products .left .filterItem .inputItem input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none; /* Override default look */
@@ -95,4 +99,6 @@
 }
 .products .left .right {
   flex: 1;
-}/*# sourceMappingURL=products.css.map */
+}
+
+/*# sourceMappingURL=products.css.map */
