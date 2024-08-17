@@ -1,5 +1,14 @@
+@media screen and (max-width: 1024px) {
+  .contact {
+    padding: 0 25px !important;
+  }
+  .contact .wrapper {
+    width: 100% !important;
+  }
+}
 @media screen and (max-width: 720px) {
   .contact {
+    padding-top: 10rem !important;
     width: 100vw !important;
     height: 40vh !important;
   }
@@ -36,7 +45,8 @@
   font-size: 12px;
   padding-right: 50px;
 }
-.contact .wrapper input {
+.contact .wrapper .mail input#text {
+  width: 128px;
   height: 18px;
   padding: 10.5px;
   font-size: 12px;
@@ -46,10 +56,21 @@
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   -o-border-radius: 0px;
+  -webkit-transition: width 0.55s ease;
+  -moz-transition: width 0.55s ease;
+  -ms-transition: width 0.55s ease;
+  -o-transition: width 0.55s ease;
+  transition: width 0.55s ease;
 }
-.contact .wrapper input:focus {
+.contact .wrapper .mail input#text:focus,
+.contact .wrapper .mail input#text:active {
   border: 1px solid #000000;
   outline: none;
+  width: 300px;
+}
+.contact .wrapper .mail input#text:hover {
+  border: 1px solid #000000;
+  width: 300px;
 }
 .contact .wrapper .subscribe-btn {
   height: 40.3px;
@@ -82,4 +103,6 @@
 }
 .contact .icons .icon {
   font-size: 15px;
-}/*# sourceMappingURL=contact.css.map */
+}
+
+/*# sourceMappingURL=contact.css.map */
