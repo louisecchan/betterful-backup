@@ -14,7 +14,7 @@
   justify-content: space-evenly;
   padding-top: 80px;
   margin-top: 11rem;
-  padding-left: 185px;
+  padding-left: 145px;
 }
 .containerStore .shop {
   flex: 2;
@@ -34,6 +34,38 @@
     opacity: 1;
   }
 }
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .fade-in {
   animation: fadeIn 3s;
@@ -43,4 +75,6 @@
   -ms-transition: ease-in;
   -o-transition: ease-in;
   -webkit-animation: fadeIn 3s;
-}/*# sourceMappingURL=stores.css.map */
+}
+
+/*# sourceMappingURL=stores.css.map */
