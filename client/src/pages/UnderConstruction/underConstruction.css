@@ -18,14 +18,16 @@
 .coming-soon-container {
   position: relative;
   top: 37%;
-  left: 46.3%;
+  left: 45%;
 }
 
 .coming-soon-text {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .loginCard-title.coming-soon-text {
+  font-family: "on9jai", sans-serif;
+  font-weight: 400;
   padding-bottom: 0;
 }
 
