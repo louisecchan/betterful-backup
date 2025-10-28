@@ -27,7 +27,7 @@ body {
   width: 100%;
   background-color: #000;
   color: #fff;
-  border: none;
+  border: 1px solid transparent;
   padding: 10px 20px 10px 20px;
   font-size: 0.8rem;
 }
@@ -94,11 +94,14 @@ body {
   -webkit-animation: fadeIn 3s;
 }
 
-:where(.css-dev-only-do-not-override-1mqg3i0).ant-input-affix-wrapper:focus, :where(.css-dev-only-do-not-override-1mqg3i0).ant-input-affix-wrapper-focused {
+:where(.css-dev-only-do-not-override-1mqg3i0).ant-input-affix-wrapper:focus,
+:where(.css-dev-only-do-not-override-1mqg3i0).ant-input-affix-wrapper-focused {
   border-color: #000;
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
 }
 
-:where(.css-dev-only-do-not-override-1mqg3i0).ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+:where(.css-dev-only-do-not-override-1mqg3i0).ant-input-affix-wrapper:not(
+    .ant-input-affix-wrapper-disabled
+  ):hover {
   border-color: #000;
 }
