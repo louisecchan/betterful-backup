@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Cart from "../Cart/Cart";
 import { useSelector } from "react-redux";
 import "./navbar.scss";
@@ -7,6 +7,7 @@ import { Hamburger } from "./Hamburger";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   const closeMobileMenu = () => setIsNavExpanded(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
         className="text-fade-up"
         onClick={closeMobileMenu}
       >
-        BETTERFUL 
+        BETTERFUL
       </h1>
       <div
         className="hamburger"
@@ -86,14 +87,14 @@ const Navbar = () => {
           </li>
           <li>
             <Link className="link" id="shop-name" to="/">
-              BETTERFUL 
+              BETTERFUL
             </Link>
           </li>
 
           {/* fake link - act like a placeholder on navbar haha */}
           <li>
             <Link className="shop-nameM" to="/" onClick={closeMobileMenu}>
-              BETTERFUL 
+              BETTERFUL
             </Link>
           </li>
 
@@ -107,7 +108,15 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className="link un" to="/stores" onClick={closeMobileMenu}>
+            <Link
+              className="link un"
+              to="/stores"
+              onClick={(e) => {
+                e.preventDefault();
+                closeMobileMenu();
+                navigate("/stores");
+              }}
+            >
               Stores
             </Link>
           </li>
