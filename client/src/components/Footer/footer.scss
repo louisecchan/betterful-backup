@@ -83,6 +83,24 @@
       span:hover {
         cursor: pointer;
       }
+
+      .dummy-url {
+        transition: color 0.2s ease;
+      }
+
+      .dummy-url:hover {
+        color: #000;
+      }
+
+      .email {
+        color: #808080;
+        text-decoration: underline;
+      }
+
+      .email:hover {
+        color: #000;
+        text-decoration: underline;
+      }
     }
   }
 

@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="item">
           <h1>About</h1>
           <p className="about-desc">
-            BETTERFUL  is a destination of discovery for all genders – a place to
+            BETTERFUL is a destination of discovery for all genders – a place to
             be inspired, to find connection and to explore all aspects of a
             stylish life. With a selection of more than 500 of the world's most
             sought-after brands, we're on a mission to provide men with
@@ -38,8 +38,12 @@ const Footer = () => {
           <p>
             For any enquiries please contact us.
             <br /> We're available 24 hours, 7 days a week. <br /> <br />
-            Email us at <a href="mailto:customercare@desiroo.com" className="email">customercare@desiroo.com</a><br/>
-            <br/>
+            Email us at{" "}
+            <a href="mailto:customercare@betterful.com" className="email">
+              customercare@betterful.com
+            </a>
+            <br />
+            <br />
             Call us on 0800 088 6808
           </p>
         </div>
@@ -47,10 +51,12 @@ const Footer = () => {
       <div className="bottom">
         <div className="left">
           <span className="logo">BETTERFUL </span>
-          <span className="copyright">© {new Date().getFullYear()} desiroo.com</span>
+          <span className="copyright">
+            © {new Date().getFullYear()} betterful.com
+          </span>
         </div>
         <div className="right">
-          <img src="/img/payment.png" alt=""/>
+          <img src="/img/payment.png" alt="" />
         </div>
       </div>
     </div>
