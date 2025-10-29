@@ -91,10 +91,9 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .contact {
-    padding-top: 10rem;
-    width: 100vw;
+    padding: 0 20px;
     height: 40vh;
 
     .wrapper {
@@ -102,10 +101,9 @@
 
       .mail {
         margin-top: 7rem;
+        width: 100%;
       }
       span {
-        padding-left: 0.5rem;
-        padding-right: 0px;
         font-size: 0.8rem;
       }
 
