@@ -1,42 +1,3 @@
-@media screen and (max-width: 768px) {
-  //.categories {
-  //  height: 20vh;
-  //}
-
-  .categories .col {
-    //height: 100%;
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .categories {
-    display: none;
-    flex-direction: column !important;
-    height: 100vh !important;
-
-    .col {
-      display: none;
-      flex-direction: row !important;
-    }
-
-    .row {
-      display: none !important;
-    }
-
-    #yoga {
-      display: none !important;
-    }
-
-    #fashion {
-      display: none;
-      height: 30vh !important;
-
-      gap: 0px !important;
-    }
-  }
-}
-
 .link-2 {
   font-size: 0.7rem;
   text-decoration: none;
@@ -100,3 +61,36 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .categories {
+    display: none;
+    flex-direction: column !important;
+    height: 100vh !important;
+
+    .col {
+      display: none;
+      flex-direction: row !important;
+    }
+
+    .row {
+      display: none !important;
+    }
+
+    #yoga {
+      display: none !important;
+    }
+
+    #fashion {
+      display: none;
+      height: 30vh !important;
+
+      gap: 0px !important;
+    }
+  }
+}
