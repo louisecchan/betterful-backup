@@ -20,9 +20,7 @@ module.exports = [
       origin: [
         "http://localhost:1337",
         "http://localhost:3000",
-        "https://strapi-shoplify.up.railway.app",
-        "https://desiroo.up.railway.app",
-        "https://betterful.up.railway.app",
+        "https://betterful-backup.vercel.app/",
         "https://strapi1000-production.up.railway.app",
         "https://strapi-production-a8c7.up.railway.app",
       ],
