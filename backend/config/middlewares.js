@@ -20,7 +20,7 @@ module.exports = [
       origin: [
         "http://localhost:1337",
         "http://localhost:3000",
-        "https://betterful-backup.vercel.app/",
+        "https://betterful-backup.vercel.app",
         "https://strapi1000-production.up.railway.app",
         "https://strapi-production-a8c7.up.railway.app",
       ],
@@ -34,6 +34,5 @@ module.exports = [
   "strapi::query",
   "strapi::body",
   "strapi::session",
-  // "strapi::favicon",
   "strapi::public",
 ];
