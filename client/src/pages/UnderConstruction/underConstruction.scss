@@ -1,12 +1,15 @@
 .coming-soon {
-  height: 100vh;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .coming-soon-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
 }
 
 .coming-soon-text {
@@ -25,9 +28,7 @@
 
 @media screen and (max-width: 420px) {
   .coming-soon-container {
-    position: relative;
-    top: 30% !important;
-    left: 36% !important;
+    padding: 1rem;
 
     h1 {
       font-size: 22px !important;
