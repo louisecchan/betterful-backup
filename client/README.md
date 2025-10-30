@@ -1,6 +1,63 @@
-# Getting Started with Create React App
+# Betterful Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses a Strapi backend.
+
+## Environment Setup
+
+See [ENV_VARIABLES.md](./ENV_VARIABLES.md) for detailed environment configuration instructions.
+
+### Quick Start - Local Development
+
+1. Create a `.env.local` file in the client directory:
+```env
+REACT_APP_API_URL=http://localhost:1337/api
+REACT_APP_API_TOKEN=your_strapi_api_token
+REACT_APP_USE_PROXY=false
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+## Deploying to Vercel
+
+This application uses Vercel Serverless Functions to securely proxy requests to Strapi, keeping your API token secret.
+
+### Prerequisites
+- A Vercel account
+- A deployed Strapi backend
+
+### Deployment Steps
+
+1. **Install Vercel CLI** (optional, can also deploy via GitHub integration):
+```bash
+npm install -g vercel
+```
+
+2. **Set Environment Variables in Vercel Dashboard**:
+   - Go to your project settings in Vercel
+   - Navigate to **Environment Variables**
+   - Add the following **server-side** variables:
+     - `STRAPI_API_URL`: Your Strapi API URL (e.g., `https://your-strapi.com/api`)
+     - `STRAPI_API_TOKEN`: Your Strapi API token
+   - Optionally add client-side variable:
+     - `REACT_APP_USE_PROXY`: Set to `true` (or omit, as production enables it automatically)
+
+3. **Deploy**:
+   - Via Vercel CLI: `vercel --prod`
+   - Or push to your connected GitHub repository
+
+### Security Notes
+
+⚠️ **Important**: Never commit `.env` files or expose `REACT_APP_API_TOKEN` in production builds.
+
+The serverless function at `/api/strapi-proxy.js` handles all API authentication server-side, ensuring your Strapi API token remains secret.
 
 ## Available Scripts
 
