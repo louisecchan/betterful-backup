@@ -1,16 +1,13 @@
 .containerStore {
   min-height: 100vh;
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 80px;
-  margin-top: 11rem;
-  padding-left: 145px;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 
   .shop {
-    flex: 2;
     font-size: 14px;
     color: rgb(100, 98, 98);
-    max-width: 500px;
 
     p {
       margin: 0;
@@ -90,13 +87,10 @@
   -webkit-animation: fadeIn 3s;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .containerStore {
     flex-direction: column;
     padding-top: 0.1rem;
-    margin-top: -1.8rem;
-    padding-left: 3rem;
     padding-bottom: 0.1rem;
-    margin-bottom: -6.3rem;
   }
 }
