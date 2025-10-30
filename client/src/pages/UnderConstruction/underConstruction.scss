@@ -3,9 +3,10 @@
 }
 
 .coming-soon-container {
-  position: relative;
-  top: 37%;
-  left: 45%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .coming-soon-text {
