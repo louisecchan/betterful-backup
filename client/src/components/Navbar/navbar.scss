@@ -168,6 +168,14 @@
     right: 5.5%;
     top: 25%;
   }
+
+  .iconsM {
+    display: block !important;
+  }
+
+  .cartText {
+    display: block !important;
+  }
 }
 
 #shopname-mobilenav {
@@ -231,7 +239,7 @@
 }
 
 .shop-nameM {
-  display: none;
+  display: none !important;
 }
 
 .story {
@@ -276,8 +284,12 @@
   }
 }
 
-.cartText {
+.iconsM {
   display: none;
+}
+
+.cartText {
+  display: none !important;
 }
 
 @media screen and (max-width: 1280px) {
