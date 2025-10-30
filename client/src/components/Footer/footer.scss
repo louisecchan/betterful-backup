@@ -9,12 +9,10 @@
     gap: 50px;
     .item {
       flex: 1;
-      // to make the items having the same size
       display: flex;
       flex-direction: column;
       gap: 10px;
       text-align: left;
-      // to make the items displayed vertically
       h1 {
         font-size: 0.8rem;
         text-transform: uppercase;
@@ -23,7 +21,6 @@
       p,
       span {
         font-size: 0.8rem;
-        // -webkit-font-smoothing: antialiased;
         color: #808080;
       }
 

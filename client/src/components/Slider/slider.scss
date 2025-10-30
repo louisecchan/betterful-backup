@@ -71,9 +71,9 @@
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
     -o-transition: all 1s ease;
-    width: 200vw; // Because we have two images
-    height: 93%; // Because children's height was declared
-    display: flex; // Make the images horizontally aligned
+    width: 200vw;
+    height: 93%;
+    display: flex;
 
     img {
       width: 100vw;
