@@ -40,6 +40,30 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .featuredProducts {
+    .top {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1.5rem;
+      margin: 0 !important;
+      padding: 0 1.6rem !important;
+    }
+
+    .top h1 {
+      flex: unset !important;
+      width: 100%;
+    }
+
+    .top p {
+      flex: unset !important;
+      width: 100%;
+      padding-right: 0 !important;
+      margin-bottom: 2rem !important;
+    }
+  }
+}
+
 .featuredProducts {
   height: 100%;
   margin: 100px 200px;

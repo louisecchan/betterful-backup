@@ -9,7 +9,7 @@
     height: 200vh !important;
 
     .top {
-      margin-left: 0.2rem !important;
+      margin-left: 0 !important;
       padding-right: 1.6rem !important;
     }
 
@@ -42,6 +42,34 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  #trending-desc {
+    margin-bottom: 2rem !important;
+  }
+
+  .featuredProducts {
+    .top {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1.5rem;
+      margin: 0 !important;
+      padding: 0 1.6rem 0 0 !important;
+    }
+
+    .top h1 {
+      flex: unset !important;
+      width: 100%;
+    }
+
+    .top p {
+      flex: unset !important;
+      width: 100%;
+      padding-right: 0 !important;
+      margin-bottom: 2rem !important;
+    }
+  }
+}
+
 .featuredProducts {
   height: 100%;
   margin: 100px 200px;
@@ -51,7 +79,7 @@
     align-content: start;
     justify-content: space-between;
     margin-bottom: 100px;
-    margin-left: 20px;
+    margin-left: 0;
     margin-right: 20px;
 
     h1 {
