@@ -48,6 +48,12 @@ export const Hamburger = ({ isOpen }) => {
               transform: ${isOpen ? "rotate(-45deg)" : "rotate(0)"};
             }
           }
+
+          @media screen and (max-width: 480px) {
+            .hamburger {
+              top: 20%;
+            }
+          }
         `}
       </style>
     </>
