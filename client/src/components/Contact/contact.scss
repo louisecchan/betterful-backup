@@ -102,6 +102,27 @@
       .mail {
         margin-top: 7rem;
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+      }
+
+      .mail span {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .mail input#text {
+        flex: 1;
+        max-width: calc(100% - 100px);
+        margin-top: 0 !important;
+      }
+
+      .mail input#text:focus,
+      .mail input#text:active,
+      .mail input#text:hover {
+        width: 100%;
+        max-width: calc(100% - 100px);
       }
 
       .icons {
@@ -111,10 +132,6 @@
 
       span {
         font-size: 0.8rem;
-      }
-
-      input {
-        margin-top: 3rem;
       }
     }
   }
