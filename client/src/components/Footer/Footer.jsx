@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./footer.scss";
 
 const Footer = () => {
@@ -8,10 +9,18 @@ const Footer = () => {
       <div className="top">
         <div className="item">
           <h1>Categories</h1>
-          <span className="dummy-url">Beauty</span>
-          <span className="dummy-url">Fashion</span>
-          <span className="dummy-url">Wellness</span>
-          <span className="dummy-url">Sale</span>
+          <Link to="/products/1" className="link">
+            Beauty
+          </Link>
+          <Link to="/products/2" className="link">
+            Fashion
+          </Link>
+          <Link to="/products/3" className="link">
+            Wellness
+          </Link>
+          <Link to="/underconstruction" className="link">
+            Sale
+          </Link>
           <span className="dummy-url">New Arrivals</span>
         </div>
         <div className="item">
@@ -44,7 +53,7 @@ const Footer = () => {
             </a>
             <br />
             <br />
-            Call us on 0800 088 6808
+            Call us on <span className="phone-number">0800 088 6808</span>
           </p>
         </div>
       </div>

@@ -28,12 +28,18 @@
         cursor: pointer;
       }
 
-      .dummy-url {
+      .dummy-url,
+      .link {
+        font-size: 0.8rem;
+        color: #808080;
         transition: color 0.2s ease;
+        text-decoration: none;
       }
 
-      .dummy-url:hover {
+      .dummy-url:hover,
+      .link:hover {
         color: #000;
+        cursor: pointer;
       }
 
       .email {
@@ -44,6 +50,20 @@
       .email:hover {
         color: #000;
         text-decoration: underline;
+      }
+
+      .phone-number {
+        color: inherit;
+        text-decoration: none;
+        pointer-events: none;
+        -webkit-text-decoration-color: inherit;
+        text-decoration-color: inherit;
+      }
+
+      // Disable phone number auto-detection styling for all browsers
+      a[href^="tel"] {
+        color: inherit;
+        text-decoration: none;
       }
     }
   }
