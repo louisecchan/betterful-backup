@@ -89,11 +89,11 @@
     width: 100%;
     height: calc(100vh - 4rem);
     background-color: white;
-    z-index: 1;
+    z-index: 999;
     display: none;
     overflow-y: hidden;
     -webkit-box-shadow: 0px 23px 24px 0px rgba(245, 245, 245, 1);
-    -moz-box-shadow: 0px 23px 24px 0px rgba(245, 245, 245, 1);
+    -moz-box-shadow: 0px 23px 23px 0px rgba(245, 245, 245, 1);
     box-shadow: 0px 23px 24px 0px rgba(245, 245, 245, 1);
   }
 
