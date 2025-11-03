@@ -16,11 +16,23 @@ const Slider = () => {
   ];
 
   useEffect(() => {
-    const changeSlide = setInterval(
-      () => setCurrentSlide((prevSlide) => 1 - prevSlide),
-      3500
-    ); // change your switch time here.
-    return () => clearInterval(changeSlide);
+    let intervalId;
+    
+    // First slide change after 2 seconds
+    const firstChange = setTimeout(() => {
+      setCurrentSlide((prevSlide) => 1 - prevSlide);
+      
+      // Subsequent changes every 3.5 seconds
+      intervalId = setInterval(
+        () => setCurrentSlide((prevSlide) => 1 - prevSlide),
+        3500
+      );
+    }, 2000);
+    
+    return () => {
+      clearTimeout(firstChange);
+      if (intervalId) clearInterval(intervalId);
+    };
   }, []);
 
   return (
