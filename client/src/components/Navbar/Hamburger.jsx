@@ -15,7 +15,7 @@ export const Hamburger = ({ isOpen }) => {
             .hamburger {
               position: absolute;
               top: 25%;
-              right: 5%;
+              right: 2%;
               width: 2rem;
               height: 1.5rem;
               display: flex;
