@@ -17,16 +17,17 @@ module.exports = [
   {
     name: "strapi::cors",
     config: {
+      enabled: true,
       origin: [
         "http://localhost:1337",
         "http://localhost:3000",
         "https://betterful-backup.vercel.app",
-        "https://strapi1000-production.up.railway.app",
         "https://strapi-production-a8c7.up.railway.app",
       ],
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
       headers: ["Content-Type", "Authorization", "Origin", "Accept"],
       keepHeaderOnError: true,
+      credentials: true,
     },
   },
   "strapi::poweredBy",
