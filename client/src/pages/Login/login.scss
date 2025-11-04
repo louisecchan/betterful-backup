@@ -27,6 +27,40 @@ label {
   -webkit-font-smoothing: antialiased;
 }
 
+// Input field styles - remove rounded corners and use black border
+.ant-input,
+.ant-input-password {
+  border-radius: 0 !important;
+  border-color: #000 !important;
+}
+
+.ant-input:hover,
+.ant-input-password:hover {
+  border-color: #000 !important;
+}
+
+.ant-input:focus,
+.ant-input-password:focus,
+.ant-input-focused,
+.ant-input-password .ant-input:focus {
+  border-color: #000 !important;
+  box-shadow: none !important;
+}
+
+.ant-input-affix-wrapper {
+  border-radius: 0 !important;
+  border-color: #000 !important;
+}
+
+.ant-input-affix-wrapper:hover {
+  border-color: #000 !important;
+}
+
+.ant-input-affix-wrapper-focused {
+  border-color: #000 !important;
+  box-shadow: none !important;
+}
+
 .loginButton {
   display: block;
   width: 100%;
