@@ -7,7 +7,7 @@ const UnderConstruction = () => {
       {" "}
       <div className="coming-soon-container">
         <h1 className="loginCard-title coming-soon-text fade-in">
-          Coming soon.
+          Don’t miss a sale—sign up now
         </h1>
         {console.log(process.env.REACT_APP_API_TOKEN)}
       </div>
