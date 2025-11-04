@@ -12,19 +12,11 @@
       padding-right: 1.6rem !important;
     }
 
-    h1 {
-      flex: 1 !important;
-      letter-spacing: -0.1rem;
-    }
-
-    p {
-      flex: 1 !important;
-    }
-
     .bottom {
       flex-direction: column !important;
       position: relative !important;
       overflow: hidden;
+      margin-bottom: 50px;
 
       .card-container {
         height: auto !important;
@@ -38,6 +30,20 @@
         left: -25%;
       }
     }
+
+    h1 {
+      flex: 1 !important;
+      letter-spacing: -0.1rem;
+    }
+
+    p {
+      flex: 1 !important;
+    }
+  }
+
+  .lds-ring div {
+    margin-top: -600px !important;
+    margin-left: 45px !important;
   }
 }
 
@@ -155,13 +161,6 @@
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   opacity: 1;
-}
-
-@media screen and (max-width: 720px) {
-  .lds-ring div {
-    margin-top: -600px !important;
-    margin-left: 45px !important;
-  }
 }
 
 .lds-ring {
