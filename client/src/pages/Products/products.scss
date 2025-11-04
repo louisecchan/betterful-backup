@@ -1,3 +1,9 @@
+@media screen and (max-width: 480px) {
+  .products {
+    flex-direction: column !important;
+  }
+}
+
 @media screen and (max-width: 420px) {
   .products {
     flex-direction: column !important;
@@ -29,8 +35,9 @@
 }
 
 .products {
-  height: 100vh;
+  min-height: 100vh;
   padding: 90px 50px;
+  margin-bottom: 50px;
   display: flex;
 
   .left {
