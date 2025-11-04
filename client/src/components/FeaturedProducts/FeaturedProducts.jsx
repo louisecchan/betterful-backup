@@ -5,7 +5,7 @@ import useFetch from "../../hooks/useFetch";
 
 const FeaturedProducts = ({ type }) => {
   const { data, loading, error } = useFetch(
-    `https://strapi-production-a8c7.up.railway.app/api/products?populate=*&[filters][type][$eq]=${type}`
+    `/products?populate=*&[filters][type][$eq]=${type}`
   );
 
   function reveal() {
