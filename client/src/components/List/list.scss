@@ -1,13 +1,6 @@
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 481px) and (max-width: 720px) {
   .list {
-    .card {
-      position: relative !important;
-      top: 5% !important;
-      left: 30% !important;
-      margin-bottom: -300px !important;
-      padding: 5px !important;
-      z-index: 0 !important;
-    }
+    justify-content: center;
   }
 }
 

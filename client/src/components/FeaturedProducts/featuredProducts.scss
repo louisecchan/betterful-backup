@@ -41,6 +41,16 @@
   }
 }
 
+@media screen and (min-width: 481px) and (max-width: 720px) {
+  .featuredProducts {
+    .bottom {
+      .card-container {
+        margin-left: -2rem;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 480px) {
   .featuredProducts {
     .top {
