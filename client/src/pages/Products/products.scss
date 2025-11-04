@@ -39,6 +39,8 @@
   padding: 90px 50px;
   margin-bottom: 50px;
   display: flex;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   .left {
     flex: 1;
