@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useMemo } from "react";
 import "./list.scss";
 import Card from "../Card/Card";
 import useFetch from "../../hooks/useFetch";
 
 const List = ({ subCats, maxPrice, sort, catId }) => {
-  const { data, loading, error } = useFetch(
-    `/products?populate=*&[filters][categories][id]=${catId}${subCats.map(
-      (item) => `&[filters][sub_categories][id][$eq]=${item}`
-    )}&[filters][price][$lte]=${maxPrice}&sort=price:${sort}`
-  );
+  // Memoize the query URL to prevent unnecessary re-fetches
+  const queryUrl = useMemo(() => {
+    const subCatsQuery = subCats
+      .map((item) => `&[filters][sub_categories][id][$eq]=${item}`)
+      .join("");
+    return `/products?populate=*&[filters][categories][id]=${catId}${subCatsQuery}&[filters][price][$lte]=${maxPrice}&sort=price:${sort}`;
+  }, [catId, subCats, maxPrice, sort]);
+
+  const { data, loading, error } = useFetch(queryUrl);
 
   return (
     <div className="list">
@@ -21,4 +25,4 @@ const List = ({ subCats, maxPrice, sort, catId }) => {
   );
 };
 
-export default List;
+export default React.memo(List);

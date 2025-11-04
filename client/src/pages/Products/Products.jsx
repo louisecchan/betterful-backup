@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import { useParams } from "react-router-dom";
 import List from "../../components/List/List";
 import useFetch from "../../hooks/useFetch";
@@ -10,20 +10,20 @@ const Products = () => {
   const [sort, setSort] = useState("asc");
   const [selectedSubCats, setSelectedSubCats] = useState([]);
 
+  // Disable debounce for initial category fetch (set to 0)
   const { data, loading, error } = useFetch(
-    `/sub-categories?[filters][categories][id][$eq]=${catId}`
+    `/sub-categories?[filters][categories][id][$eq]=${catId}`,
+    0
   );
 
-  const handleChange = (e) => {
+  const handleChange = useCallback((e) => {
     const value = e.target.value;
     const isChecked = e.target.checked;
 
-    setSelectedSubCats(
-      isChecked
-        ? [...selectedSubCats, value]
-        : selectedSubCats.filter((item) => item !== value)
+    setSelectedSubCats((prev) =>
+      isChecked ? [...prev, value] : prev.filter((item) => item !== value)
     );
-  };
+  }, []);
 
   return (
     <div className="products">

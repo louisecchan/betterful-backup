@@ -15,6 +15,7 @@ const Card = ({ item }) => {
             }
             alt=""
             className="mainImg"
+            loading="lazy"
           />
           <img
             src={
@@ -23,6 +24,7 @@ const Card = ({ item }) => {
             }
             alt=""
             className="secondImg"
+            loading="lazy"
           />
         </div>
         <h2>{item?.attributes.title}</h2>
@@ -34,4 +36,4 @@ const Card = ({ item }) => {
   );
 };
 
-export default Card;
+export default React.memo(Card);
