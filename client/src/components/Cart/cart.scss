@@ -89,11 +89,20 @@
     padding: 0px;
     background-color: white;
     margin-bottom: 0px;
+    color: black;
+
+    svg {
+      transition: color 0.3s ease;
+    }
   }
 
   .cartCloseBtn:hover {
     background-color: white;
-    color: black;
+    color: #888;
+
+    svg {
+      color: #888;
+    }
   }
 
   button {
