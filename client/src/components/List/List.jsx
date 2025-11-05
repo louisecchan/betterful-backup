@@ -17,7 +17,12 @@ const List = ({ subCats, maxPrice, sort, catId }) => {
   return (
     <div className="list">
       {loading ? (
-        <span className="list-loading">LOADING</span>
+        <div className="lds-ring">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       ) : (
         data?.map((item) => <Card item={item} key={item.id} className="card" />)
       )}
