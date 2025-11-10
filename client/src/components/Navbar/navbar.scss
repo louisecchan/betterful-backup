@@ -157,6 +157,26 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  #shopname-mobilenav {
+    padding-left: 1.2rem;
+    margin-left: -5.8rem;
+  }
+
+  .hamburger {
+    right: 5.5%;
+    top: 25%;
+  }
+
+  .iconsM {
+    display: block !important;
+  }
+
+  .cartText {
+    display: block !important;
+  }
+}
+
 @media screen and (max-width: 414px) {
   #shopname-mobilenav {
     padding-left: 1.2rem;
