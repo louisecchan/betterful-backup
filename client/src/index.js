@@ -5,7 +5,6 @@ import { persistor, store } from "./redux/store";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import AuthProvider from "./components/AuthProvider/AuthProvider";
-import { BrowserRouter as Router } from "react-router-dom";
 
 // stylesheet and fonts
 import "./index.scss";

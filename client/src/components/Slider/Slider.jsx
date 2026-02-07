@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import EastOutlinedIcon from "@mui/icons-material/EastOutlined";
-import WestOutlinedIcon from "@mui/icons-material/WestOutlined";
 import "./slider.scss";
 
 const Slider = () => {

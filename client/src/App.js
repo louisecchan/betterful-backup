@@ -11,7 +11,6 @@ import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import Profile from "./pages/Profile/Profile";
 import UnderConstruction from "./pages/UnderConstruction/UnderConstruction";
-import { Col, Row } from "antd";
 
 // stylesheet
 import "./app.scss";

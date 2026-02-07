@@ -11,7 +11,7 @@ const Products = () => {
   const [selectedSubCats, setSelectedSubCats] = useState([]);
 
   // Disable debounce for initial category fetch (set to 0)
-  const { data, loading, error } = useFetch(
+  const { data } = useFetch(
     `/sub-categories?[filters][categories][id][$eq]=${catId}`,
     0
   );

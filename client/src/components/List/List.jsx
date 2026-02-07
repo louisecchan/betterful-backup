@@ -12,7 +12,7 @@ const List = ({ subCats, maxPrice, sort, catId }) => {
     return `/products?populate=*&[filters][categories][id]=${catId}${subCatsQuery}&[filters][price][$lte]=${maxPrice}&sort=price:${sort}`;
   }, [catId, subCats, maxPrice, sort]);
 
-  const { data, loading, error } = useFetch(queryUrl);
+  const { data, loading } = useFetch(queryUrl);
 
   return (
     <div className="list">
