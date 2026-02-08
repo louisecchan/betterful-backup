@@ -1,7 +1,7 @@
 .navbar {
   position: relative;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
   width: 100%;
@@ -15,11 +15,12 @@
 #shop-name {
   font-size: 1.5rem;
   font-weight: 700;
-  margin-left: 19rem;
-  margin-right: 17rem;
+  text-align: center;
 }
 
 .navigation-menu {
+  width: 100%;
+
   @media screen and (max-width: 1024px) {
     justify-content: space-evenly;
     display: flex;
@@ -27,14 +28,44 @@
 }
 
 .navigation-menu ul {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; // Left = Center = Right (equal space)
   padding: 0;
   align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.nav-group {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+.nav-left {
+  justify-content: flex-start;
+  margin-left: 2rem;
+}
+
+.nav-right {
+  justify-content: flex-end;
+}
+
+.logo-item {
+  list-style-type: none;
+  grid-column: 2;
+}
+
+.shop-nameM-item {
+  display: none;
 }
 
 .navigation-menu li {
   list-style-type: none;
-  margin: 0 0.8rem;
 }
 
 .navigation-menu li a {
@@ -222,7 +253,9 @@
   background-position: 0 100%;
   background-size: 0% 0.5px;
   background-repeat: no-repeat;
-  transition: background-size 0.3s, background-position 0s 0.3s;
+  transition:
+    background-size 0.3s,
+    background-position 0s 0.3s;
 }
 
 .un:hover {
@@ -312,8 +345,6 @@
 @media screen and (max-width: 1280px) {
   #shop-name {
     font-size: 1.8rem;
-    margin-left: 8rem;
-    margin-right: 8rem;
   }
 
   .muiIcons {
@@ -328,8 +359,6 @@
 @media screen and (max-width: 1124px) {
   #shop-name {
     font-size: 1.8rem;
-    margin-left: 6.3rem;
-    margin-right: 6.3rem;
   }
 
   .muiIcons {
@@ -344,8 +373,6 @@
 @media screen and (max-width: 1024px) {
   #shop-name {
     font-size: 1.5rem;
-    margin-left: 3.2rem;
-    margin-right: 3.2rem;
   }
 
   .muiIcons {
@@ -360,8 +387,6 @@
 @media screen and (max-width: 900px) {
   #shop-name {
     font-size: 1.4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
   }
 
   .muiIcons {
