@@ -2,7 +2,7 @@
 
 A modern e-commerce platform built with React and Strapi CMS, featuring a full-featured online shopping experience with user authentication, product management, and integrated payment processing.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React** 18.0.0 - UI framework
@@ -41,19 +41,19 @@ betterful-backup/
     └── database/    # Database migrations
 ```
 
-## ✨ Features
+## Features
 
-- 🛍️ **Product Catalog** - Browse products by categories and subcategories
-- 🛒 **Shopping Cart** - Add, remove, and manage cart items
-- 👤 **User Authentication** - Register, login, and manage user profiles
-- 💳 **Payment Integration** - Secure checkout with Stripe
-- 🔍 **Product Search & Filter** - Find products easily
-- 📱 **Responsive Design** - Works seamlessly on all devices
-- ⭐ **Featured & Trending Products** - Curated product selections
-- 📦 **Order Management** - Track and manage orders
-- 🏪 **Store Locator** - Find physical store locations
+- **Product Catalog** - Browse products by categories and subcategories
+- **Shopping Cart** - Add, remove, and manage cart items
+- **User Authentication** - Register, login, and manage user profiles
+- **Payment Integration** - Secure checkout with Stripe
+- **Product Search & Filter** - Find products easily
+- **Responsive Design** - Works seamlessly on all devices
+- **Featured & Trending Products** - Curated product selections
+- **Order Management** - Track and manage orders
+- **Store Locator** - Find physical store locations
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 - Node.js >= 18.20.2 < 19
