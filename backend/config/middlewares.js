@@ -1,14 +1,9 @@
-module.exports = [
+module.exports = ({ env }) => [
   {
     name: "strapi::cors",
     config: {
       enabled: true,
-      origin: [
-        "http://localhost:1337",
-        "http://localhost:3000",
-        "https://betterful-backup.vercel.app",
-        "https://strapi-production-a8c7.up.railway.app",
-      ],
+      origin: env.array("CORS_ORIGINS", ["http://localhost:3000"]),
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
       headers: ["Content-Type", "Authorization", "Origin", "Accept"],
       keepHeaderOnError: true,
